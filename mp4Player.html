@@ -1,0 +1,53 @@
+
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, user-scalable=no" />
+<meta name="renderer" content="webkit">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<title>2020单细胞组学国际研讨会（SCO2020） 录屏  | powered by jwplayer</title>
+<meta content="" name="Keywords">
+<meta content="" name="Description">
+<meta name="format-detection" content="telephone=no">
+<style>
+html,body,div{margin:0;padding:0;}
+.wrap{width:800px; margin:0 auto;}
+</style>
+</head>
+<body>
+<div class=wrap>
+	<p>2020单细胞组学国际研讨会（SCO2020） 录屏 (
+	<a href="https://play.yunxi.tv/livestream/flash?id=4a0e633ac2164b07bd007925a543eac8#/">live</a>) | <a href="index.html">Back to Home</a></p>
+
+	<h3 id='title'></h3>
+	<div style="width:800px;">
+		<div id="mediaplayer"></div> 
+	</div>
+
+</div>
+
+<script type="text/javascript" src="jwplayer/jwplayer.js"></script>
+<script type="text/javascript">
+function $(s){return document.getElementById(s)}
+function getUrlParam(name) {
+	var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)"); 
+	var r = window.location.search.substr(1).match(reg);
+	if (r != null) return unescape(r[2]); return null;
+}
+var url=getUrlParam('url') || 'clip/clip_2020_10_15_11_37_48_7-Nolan.mp4'
+$('title').innerHTML=url;
+jwplayer('mediaplayer').setup({
+	'flashplayer': 'jwplayer/jwplayer.flash.swf',
+	'image': '0.png',
+	'id': 'playerID',
+	'width': '100%',
+	'aspectratio':'10:6',
+	'file': url
+});
+</script>
+
+
+</body>
+</html>
+

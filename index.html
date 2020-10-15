@@ -1,0 +1,109 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, user-scalable=no" />
+<meta name="renderer" content="webkit">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<title>2020单细胞组学国际研讨会（SCO2020） 录屏  | powered by jwplayer</title>
+<meta content="" name="Keywords">
+<meta content="" name="Description">
+<meta name="format-detection" content="telephone=no">
+<base target="_blank">
+<style>
+html,body,div{margin:0;padding:0;}
+html{font: 14px/1.5 "PingFang SC","微软雅黑","Microsoft YaHei",Helvetica,"Helvetica Neue",Tahoma,Arial,sans-serif;}
+body{background: #f8fafc;}
+
+.wrap{width:800px; margin:0 auto;}
+
+
+ol{
+	margin-bottom: 8px;
+    padding: 24px 32px 32px;
+    background: #fff;
+    box-shadow: 0 8px 16px 0 rgba(7,17,27,.1);
+    border-radius: 12px;
+}
+ol li{
+	position: relative;
+    padding-left: 12px;
+    height: 48px;
+    line-height: 48px;
+    /*
+	list-style: none;
+	*/
+}
+ol li:hover{
+	background:rgba(242,13,13,.05);border-radius:4px;color:#f20d0d
+}
+ol li a{color: #1c1f21;}
+ol li a:hover{color: #f20d0d;}
+
+
+#footer{background:black; color:white; padding:10px; margin-top:30px;}
+#footer a{color:white;}
+#footer a:hover{color:#f20d0d;}
+
+#footer p{display:inline-block; margin:5px 5px;}
+</style>
+</head>
+<body>
+<div class=wrap>
+	<h1>2020单细胞组学国际研讨会（SCO2020） 录屏 (
+	<a href="https://play.yunxi.tv/livestream/flash?id=4a0e633ac2164b07bd007925a543eac8#/">live</a>) </h1>
+	
+	
+	<ol id="link">
+		<!--
+		<li>clip/clip_2020_10_15_11_37_48_7.mp4 <a target="_blank" href="mp4Player.html?url=clip/clip_2020_10_15_11_37_48_7-Nolan.mp4">play</a> | <a target="_blank" href="clip/clip_2020_10_15_11_37_48_7-Nolan.mp4">download</a></li>
+		-->
+	</ol>
+	
+</div>
+
+<div id=footer>
+	<p><a href="https://github.com/DawnEve/txtBlog/issues/10">文字笔记 git</a></p>
+	<p><a href="https://www.imooc.com/learn/36">风格参考 imooc</a></p>
+	<p><a href="https://github.com/DawnEve/mp4Player">Fork Me</a></p>
+</div>
+
+
+<script>
+function $(s){return document.getElementById(s)}
+videos=[
+	'clip/clip_2020_10_15_11_37_48_7-Nolan.mp4',
+	'clip/clip_2020_10_15_15_31_26_933-Quake.mp4',
+	'clip/clip_2020_10_15_16_14_59_372-Sarah_Teichmann.mp4',
+	'clip/clip_2020_10_15_16_43_30_515-Sten_Linnarsson.mp4',
+	'clip/clip_2020_10_15_17_54_06_418-FuChou_Tang.mp4',
+]
+
+
+
+var oU=$('link')
+for(i in videos){
+	var v=videos[i]
+	//console.log(i,v)
+	var oA=document.createElement("a")
+	oA.setAttribute('target','_blank')
+	oA.setAttribute('href','mp4Player.html?url='+v)
+	oA.innerHTML='play'
+	//
+	var oA2=document.createElement("a")
+	oA2.setAttribute('target','_blank')
+	oA2.setAttribute('href',v)
+	oA2.innerHTML='download'
+	//
+	var oLi=document.createElement("li")
+	oLi.append(document.createTextNode(v.replace('clip/', '').replace('\.mp4', '')+' ( '))
+	oLi.append(oA)
+	oLi.append(document.createTextNode(' | '))
+	oLi.append(oA2)
+	oLi.append(document.createTextNode(' )'))
+	oU.append(oLi)
+}
+
+</script>
+</body>
+</html>
