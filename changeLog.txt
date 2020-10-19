@@ -1,3 +1,7 @@
 version change
 
 v0.1 基本可用
+v0.2 进一步完善界面
+
+#->commit 
+#---->push to dawneve
